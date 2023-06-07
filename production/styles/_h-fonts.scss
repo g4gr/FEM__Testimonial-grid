@@ -1,17 +1,14 @@
-@use 'sass:math' ;
 
 $fontSize :     18px ;
 $fontWeight :   600 ;
 $lineHeight :   2.5 ;
 
-// Bucle para los valores H ;
-
-$numeros : 36px , 32px , 28px , 24px , 22px , 18px ;
+$sizes : 38px , 32px , 28px , 24px , 22px , 18px ;
 
 @for $i from 1 through 6 {
-    @each $numero in $numeros {
+    @each $size in $sizes {
         h#{ $i } {
-            font-size : #{ $numero } ;
+            font-size : #{ $size } ;
         }
     }
 }
