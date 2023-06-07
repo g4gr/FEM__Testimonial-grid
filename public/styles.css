@@ -1,7 +1,151 @@
+h1 {
+  font-size: 36px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 36px;
+}
+
+h5 {
+  font-size: 32px;
+}
+
+h5 {
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 36px;
+}
+
+h6 {
+  font-size: 32px;
+}
+
+h6 {
+  font-size: 28px;
+}
+
+h6 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 22px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
 html {
   font-size: 18px;
-  font-weight: 400;
-  line-height: 1.5;
+  font-weight: 600;
+  line-height: 2.5;
 }
 
 .Main {
