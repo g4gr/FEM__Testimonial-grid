@@ -1,7 +1,7 @@
 
-$fontSize :     18px ;
-$fontWeight :   600 ;
-$lineHeight :   2.5 ;
+$fontSize :     13px ;
+$fontWeight :   500 ;
+$lineHeight :   1.5 ;
 
 $sizes : 38px , 32px , 28px , 24px , 22px , 18px ;
 
@@ -12,10 +12,4 @@ $sizes : 38px , 32px , 28px , 24px , 22px , 18px ;
 // h3 { font-size : 18px }
 
 
-@for $i from 1 through 3 {
-    @each $size in $sizes {
-        h#{ $i } {
-            font-size : #{ $size } ;
-        }
-    }
-}
+

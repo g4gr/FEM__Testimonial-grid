@@ -1,0 +1,29 @@
+@use 'h-fonts' as F ;
+@use 'h-colors' as C ;
+
+@mixin article__header () {
+    &__header {
+        display
+
+        &--figure {
+
+            & img {
+                border-radius: 50% ;
+            }
+        }
+    }
+}
+
+@mixin article__main (){
+    &__main {
+
+        &--title {
+             font-weight: F.$fontWeight + 100 ;
+        }
+
+        &--paragraph {
+            // color : ;
+            font-weight : F.$fontWeight - 100 ;
+        }
+    }
+}

@@ -1,4 +1,5 @@
 @use 'h-fonts' as F ;
+@use 'h-colors' as C ;
 
 html {
   font-size :       F.$fontSize ;
@@ -6,4 +7,15 @@ html {
   line-height :     F.$lineHeight ;
 }
 
-.Body {}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Body {
+    display : grid ;
+    grid-template-rows: 10vh 80vh 10vh ;
+    grid-template-columns : repeat( 12 , 1fr );
+
+    background-color : C.$c-grey200 ;
+}

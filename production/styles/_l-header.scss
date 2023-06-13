@@ -1,0 +1,12 @@
+@use 'mixins' as M ;
+
+.Header {
+    grid-row : 1 / 2 ;
+    grid-column: 1 / 13 ;
+
+    @include M.Display ( flex , row nowrap , center , center ) ;
+
+    & h1 {
+        text-align: center ;
+    }
+}

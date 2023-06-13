@@ -1,0 +1,17 @@
+// Comienzo Mixins
+
+@mixin Display ( $display , $flexFlow , $justifyContent , $alignItems : false , $gap : false ){
+    display :           $display ;
+    flex-flow :         $flexFlow ;
+    justify-content :   $justifyContent ;
+    
+    @if $alignItems {
+        align-items :       $alignItems ;
+    }
+    
+    @if $gap {
+        gap :           $gap ;
+    }
+
+}
+
