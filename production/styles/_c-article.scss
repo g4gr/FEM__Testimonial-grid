@@ -1,14 +1,23 @@
+@use 'mixins' as M ;
 @use 'h-fonts' as F ;
 @use 'h-colors' as C ;
 
+
 @mixin article__header () {
     &__header {
-        display
+        @include M.Display( flex , row nowrap , space-between , center , 1rem );
+        padding-right : 2rem ;
 
         &--figure {
+            display : inline-flex ;
+            align-items: center ;
+            gap : 1rem ;
+
 
             & img {
+                scale : .75 ;
                 border-radius: 50% ;
+                border : 4px solid C.$c-violet600 ;
             }
         }
     }
